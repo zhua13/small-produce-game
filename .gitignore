@@ -1,0 +1,36 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Testing / coverage ----
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+
+# ---- PyCharm / JetBrains ----
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ---- VS Code ----
+.vscode/
+
+# ---- OS / editor cruft ----
+.DS_Store
+Thumbs.db
+*.swp
